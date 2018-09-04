@@ -1,0 +1,26 @@
+page-landing {
+#Welcome{
+    background: color($colors, bg);
+    #title_Welcome{
+        font-size: 40px;
+        margin-top: 52px;
+        text-align: center;
+        font-family: Arial;
+        text-shadow: 2px 2px #f7bc1a;
+    }
+    #title_Desc{
+        font-size: 12px;
+        text-align: center;
+        font-family: Arial;
+    }
+    #signup_Text{
+        font-size: 12px;
+        text-align: Center;
+    }
+    footer{
+        position: relative;
+        height: 180px;
+        text-align: center;
+    }
+}
+}

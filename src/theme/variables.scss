@@ -4,8 +4,14 @@
 // Font path is used to include ionicons,
 // roboto, and noto sans fonts
 $font-path: "../assets/fonts";
-
-
+@font-face {
+	font-family: "Signatra";
+	src: url("fonts/Signatra.eot?") format("eot"),
+		 url("fonts/Signatra.woff2") format("woff2"),
+		 url("fonts/Signatra.woff") format("woff"),
+		 url("fonts/Signatra.ttf") format("truetype"),
+		 url("fonts/Signatra.svg#Signatra") format("svg");
+}
 // The app direction is used to include
 // rtl styles in your app. For more info, please see:
 // http://ionicframework.com/docs/theming/rtl-support/
@@ -34,14 +40,16 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
+  primary:    #ffffff,
+  secondary:  #fa3a00,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       rgb(100, 100, 100),
+  bg:  #ebcf52,
+  tb: #d8b827
 );
 
-
+$toolbar-background: color($colors, tb);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here

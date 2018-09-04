@@ -1,0 +1,23 @@
+<ion-content padding id="Login">
+  <h1 id="signin_Title">Log-in to your Account</h1>
+  <br>
+  <hr>
+  <br>
+  <ion-item>       
+    <ion-input required clearInput type="text" placeholder="Username" id="username"></ion-input>  
+  </ion-item>   
+  <br>   
+  <hr>
+  <br>
+  <ion-item>       
+    <ion-input required clearInput type="password" placeholder="Password" id="password"></ion-input>   
+  </ion-item>
+  <br>
+  <hr>
+  <br>
+  <button ion-button id="btnLogin" (click)="verifyCredentials()" block>Log-in</button>
+  <br>
+  <footer>
+    Made by Vince Villegas 2018
+  </footer>
+</ion-content>

@@ -1,0 +1,19 @@
+page-sign-in {
+    #Login{
+        background: color($colors, bg);
+            #signin_Title{
+                font-size: 40px;
+                margin-top: 52px;
+                text-align: center;
+                font-family: Arial;
+                text-shadow: 2px 2px #f7bc1a;
+            }
+            footer{
+                position: relative;
+                height: 180px;
+                text-align: center;
+            }
+        }
+    }
+        
+
